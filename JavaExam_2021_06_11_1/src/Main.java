@@ -1,10 +1,13 @@
 
 class Main {
   public static void main(String[] args) {
-    int x1 = 10;
-    System.out.println(x1);
-    int x2;
-    x2 = x1 + 1;
-    System.out.println(x2);
+//    int x = 20;
+//    int y = 10;
+//    System.out.println("x+y:" + x + y);
+	  
+	  double a = 5.5;
+	  boolean b = 5.5 == 5.5;
+	  
+	  System.out.println(b);
   }
 }
