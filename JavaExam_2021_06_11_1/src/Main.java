@@ -1,8 +1,9 @@
 
 class Main {
   public static void main(String[] args) {
-    int a = 20;
-    int b = 30;
-    System.out.println(a+b);
+    int x1 = 10;
+    System.out.println(x1);
+    x1 = x1 + 1;
+    System.out.println(x1);
   }
 }
