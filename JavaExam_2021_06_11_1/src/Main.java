@@ -5,9 +5,10 @@ class Main {
 //    int y = 10;
 //    System.out.println("x+y:" + x + y);
 	  
-	  double a = 5.5;
-	  boolean b = 5.5 == 5.5;
+	  String a = "8 * 1 = 8\n";
+	  a = a + "8 * 2 = 16\n";
+	  a = a + "8 * 3 = 24\n";
 	  
-	  System.out.println(b);
+	  System.out.println(a);
   }
 }
