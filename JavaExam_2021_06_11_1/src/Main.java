@@ -7,5 +7,6 @@ class Main {
   public static void main(String[] args) {
     // `\` <= 백스페이스 좌측 키
     System.out.println("안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n안녕하세요\n");
+    int x = 1;
   }
 }
