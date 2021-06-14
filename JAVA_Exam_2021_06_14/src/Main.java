@@ -7,14 +7,46 @@
 
 class Main {
   public static void main(String[] args) {
-    int age = 20; // 이 값을 바꿔가면서 실행해보세요.
+    int age = 33; // 이 값을 바꿔가면서 실행해보세요.
 
     System.out.println("당신의 나이는 " + age + "살 입니다.");
 
     // 구현시작
-    
-    if(age <= 1) {
-    	System.out.println("유아입니다.");
+    System.out.println("== v1 ==");
+    if(age <= 19 || age >=60) {
+    	System.out.println("할인 대상입니다.");
+    }
+    else {
+    	System.out.println("할인 대상이 아닙니다.");
+    }
+    System.out.println("== v2 ==");
+    if(age > 19 && age < 60) {
+    	System.out.println("할인 대상이 아닙니다.");
+    }
+    else {
+    	System.out.println("할인 대상입니다.");
+    }
+    System.out.println("== v3 ==");
+    if(age <= 19) {
+    	System.out.println("할인 대상입니다.");
+    }
+    else if(age >= 60) {
+    	System.out.println("할인 대상입니다.");
+    }
+    else {
+    	System.out.println("할인 대상이 아닙니다.");
+    }
+    System.out.println("== v4 ==");
+    if(age > 19) {
+    	if(age < 60) {
+    		System.out.println("할인 대상이 아닙니다.");
+    	}
+    	else{
+    		System.out.println("할인 대상입니다.");
+    	}
+    }
+    else {
+    	System.out.println("할인 대상입니다.");
     }
     
     // 출력 => 할인대상입니다. 또는 할인 대상이 아닙니다.
