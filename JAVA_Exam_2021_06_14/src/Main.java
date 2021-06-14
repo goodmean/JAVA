@@ -13,7 +13,7 @@ class Main {
 
     // 구현시작
     
-    if(age >= 1) {
+    if(age <= 1) {
     	System.out.println("유아입니다.");
     }
     
