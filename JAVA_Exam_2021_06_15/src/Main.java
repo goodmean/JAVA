@@ -64,11 +64,11 @@ class Main {
     }
 
     if ( 20 > 2 && 10 > 3 && true != false && 10 != 10 ) {
-			System.out.println("거짓");
-		}
+		System.out.println("거짓");
+	}
 
-		if ( 10 != 10 || 10 < 2 ) {
-			System.out.println("거짓");
-		}
+	if ( 10 != 10 || 10 < 2 ) {
+		System.out.println("거짓");
+	}
   }
 }
