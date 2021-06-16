@@ -7,9 +7,7 @@ class Main {
     
     int i = 1;
     
-    for() {
-    	
-    }
+    
     
     // 출력
     /*
