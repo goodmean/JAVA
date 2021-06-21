@@ -17,10 +17,11 @@ class Person {
 	String name;
 	
 	void introduce() {
-		System.out.println("== 자기소개 시작");
+		System.out.println("== 자기소개 시작 ==");
 		System.out.printf("이름 : %s\n", name);
 		System.out.printf("나이 : %d\n", age);
 		System.out.printf("기혼 여부 : %b\n", isMarried);
+		System.out.println("== 자기소개 끝 ==");
 	}
 	
 	void 숨쉬다(){
