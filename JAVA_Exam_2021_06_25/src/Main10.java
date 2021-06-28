@@ -15,5 +15,5 @@ class 동물 {
 }
 
 class 사람 extends 동물 {
-
+	
 }
